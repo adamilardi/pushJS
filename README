@@ -1,3 +1,35 @@
+I created pushJS to send javascript updates to users of any website. 
+
+Goals:
+This project should make it very easy to send Javascript to connected user's browsers. It should be one way communication.
+In the future I would like to get a live feed of who is logged on and what they are doing.
+
+#requires
+node.js     http://nodejs.org/
+redis       http://redis.io
+socket.io   http://socket.io/
+node_redis  https://github.com/mranney/node_redis
+
+
+Potential uses:
+	News websites:
+		A breaking news alert
+	Shopping sites:
+		Push newly added deals
+
+
+Demo:
+
+The usernames are randomly generated but can easily be replaced with a username from your website.
+
+http://hostname:8081/demo.html   # log into the website and wait for updates
+http://hostname:8081/whoison     # admin console to send messages to users
+
+
+
+
+
+
 Copyright (c) 2011 Adam Ilardi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
