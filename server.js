@@ -48,7 +48,7 @@ server = http.createServer(function(req, res){
 	   res.write('</ul>'); 
 	   res.write(
         '<form action="/myaction" method="post" >'+
-        'Enter username:<br> <input type="text" name="username"><br>'+
+        'Enter username: Must be from the list above. <br> <input type="text" name="username"><br>'+
         'Enter javascript to send to the user: ex alert("hello"); <br> <TEXTAREA NAME="js" COLS=40 ROWS=6></TEXTAREA>'+
         '<input type="submit" value="Submit">'+
         '</form>'
