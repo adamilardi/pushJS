@@ -48,8 +48,8 @@ server = http.createServer(function(req, res){
 	   res.write('</ul>'); 
 	   res.write(
         '<form action="/myaction" method="post" >'+
-        'Enter username: <input type="text" name="username"><br>'+
-        'Enter javascript to send to the user: <TEXTAREA NAME="js" COLS=40 ROWS=6></TEXTAREA>'+
+        'Enter username:<br> <input type="text" name="username"><br>'+
+        'Enter javascript to send to the user:<br> <TEXTAREA NAME="js" COLS=40 ROWS=6></TEXTAREA>'+
         '<input type="submit" value="Submit">'+
         '</form>'
        );
