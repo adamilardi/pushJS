@@ -17,7 +17,7 @@
       var socket = new io.Socket(null, {port: 8081, rememberTransport: false});
       socket.connect();
 	socket.on('connect', function(obj){
-	   var userName = { username : "adam"+Math.floor(Math.random()*1000) };
+	   var userName = { username : "RandomUser"+Math.floor(Math.random()*1000) };
 	   socket.send(userName);
 	});
       socket.on('message', function(obj){
